@@ -41,6 +41,6 @@ gem 'pg', '0.18.1', group: :production
 
 gem 'rails_12factor', group: :production
 
-group :production do
-  gem 'rails_12factor'
+group :assets do
+  gem 'jquery-ui-rails', :git => 'https://github.com/joliss/jquery-ui-rails'
 end
