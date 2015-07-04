@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-config.assets.paths << Rails.root.join('vendor', 'assets', 'components')
+
 
 
