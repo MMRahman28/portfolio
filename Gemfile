@@ -43,4 +43,6 @@ gem 'rails_12factor', group: :production
 
 group :assets do
   gem 'jquery-ui-rails', :git => 'https://github.com/joliss/jquery-ui-rails'
+
+  gem 'unicorn' 
 end
