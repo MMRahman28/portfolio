@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
+  <script src="//unslider.com/unslider.min.js"></script>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  
+  <div class ="header">
+  <div class="nav nav-pills">
+   <div class="container">
+    <ul class ="pull-left">  
+      <li><%= link_to "Welcome", root_path %></li>
+    <li><%= link_to "Portfolio", portfolio_path %></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+     </ul>
+   <ul class="pull-right">
+     <li><a href="#">Mashuk</a></li>
+     </ul>
+   </div>
+   </div>
+</div>
+
+<%= yield %>
+  
+  
+<div class="footer">
+  
+      <div class="container">
+        <div class="pull-right">
+        <a href ="#"><img src ="https://dl.dropboxusercontent.com/s/14kntwgnr2bnegw/inspiration.svg?dl=0"></a>
+        
+          <div><p>&copy; 2015 Mashuk</p>
+            
+          <p>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></p>
+          
+          </div>
+       </div>
+
+    </div>  
+</div>
+</body>
+</html>
