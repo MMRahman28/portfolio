@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   root 'pages#welcome'
   get '/portfolio' => 'pages#portfolio'
+  
 end

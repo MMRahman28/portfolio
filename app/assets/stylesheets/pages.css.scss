@@ -1,6 +1,8 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
 .header li {
 display: inline-block;
 position: relative;
@@ -16,6 +18,15 @@ color:	#333300;
 .jumbotron {
 background: url('https://dl.dropboxusercontent.com/s/5tug99ala22yzk2/19087585626_d16bace51e_k.jpg?dl=0') no-repeat center center fixed;
 height: 700px;
+background-size: cover;
+
+}
+
+.jumbotron .container{
+
+position: relative;
+top: 100px;
+
 
 }
 .jumbotron h1{
@@ -39,20 +50,56 @@ font-size: 50px;
 
 
 background-color : #FFFFFF;
+background-size: cover;
+
+}
+
+.jumbo .contain {
+ position: relative;
+ top: 100px;
+
+}
+
+
+
+.jumbo .contain .banner{
+position: relative;
+margin: 0px auto;
+bottom: 100px;
+width: 1000px;
+
+
+}
+
+.jumbo .contain .banner ul li{
+  overflow: auto;
+  list-style: none; 
+  float:left;
+  
+}
+
+.supporting {
+position: relative;
+margin: auto;
+top: 50px;
+
+}
+.supporting .row {
+position: relative;
+margin: auto;
 padding: 10px;
 
 }
-.supporting h3 {
+
+.supporting .row .col-md-4 .thumbnail {
 position: relative;
+margin: auto;
 text-align: center;
 
 }
-.supporting p {
+.footer{
 position: relative;
-text-align: center;
+top: 100px;
 
 }
 
-   .banner { position: relative; overflow: auto;}
-    .banner li { list-style: none; }
-        .banner ul li { float: left;} 

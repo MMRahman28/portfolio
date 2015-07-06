@@ -15,4 +15,4 @@
 //= require unslider
 //= require turbolinks
 //= require_tree .
-
+//= require app.js
