@@ -56,32 +56,20 @@ background-size: cover;
 
 .jumbo .contain {
  position: relative;
- top: 100px;
-
-}
-
+ top: 50px;
+ }
 
 
-.jumbo .contain .banner{
-position: relative;
-margin: 0px auto;
-bottom: 100px;
-width: 1000px;
 
 
-}
-
-.jumbo .contain .banner ul li{
-  overflow: auto;
-  list-style: none; 
-  float:left;
-  
-}
-
+.jumbo .contain .banner { position: relative; overflow: auto; margin: auto; width: 1000px;}
+    .jumbo .contain .banner li { list-style: none; }
+        .jumbo .contain .banner ul li { float: left; }
+        
 .supporting {
 position: relative;
 margin: auto;
-top: 50px;
+top: 100px;
 
 }
 .supporting .row {
