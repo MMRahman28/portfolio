@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 .header li {
 display: inline-block;
 position: relative;
@@ -56,17 +55,16 @@ background-size: cover;
 
 .jumbo .contain {
  position: relative;
- top: 50px;
- }
+ top: 100px;
 
+}
 
 
 
 .jumbo .contain .banner{
 position: relative;
 margin: 0px auto;
-left: 4%;
-
+bottom: 100px;
 width: 1000px;
 
 
@@ -78,11 +76,11 @@ width: 1000px;
   float:left;
   
 }
-        
+
 .supporting {
 position: relative;
 margin: auto;
-top: 100px;
+top: 50px;
 
 }
 .supporting .row {
@@ -100,8 +98,6 @@ text-align: center;
 }
 .footer{
 position: relative;
-top: 200px;
-margin: auto;
+top: 100px;
 
 }
-
