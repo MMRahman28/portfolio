@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require unslider
+//= require app.js
 //= require turbolinks
 //= require_tree .
 
